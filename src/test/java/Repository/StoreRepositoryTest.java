@@ -1,12 +1,12 @@
 /*Author : Zacharia dipidi
 Date: 24 march 2026
  */
-package repository;
+package Repository;
 
 import Domain.Product;
 import Domain.Store;
 import Factory.StoreFactory;
-import Factory.productFactory;
+import Factory.ProductFactory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -22,7 +22,7 @@ class StoreRepositoryTest {
 
         repository.getAll().clear();
 
-        Product product = productFactory.createProduct(
+        Product product = ProductFactory.createProduct(
                 "P001",
                 "iPhone 17",
                 "Pro Max",

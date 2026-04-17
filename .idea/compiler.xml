@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Store_Inventory_Manager" />
+        <module name="Store_Inventory_Manager (1)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Store_Inventory_Manager" target="24" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package repository;
+package Repository;
 
 /* ICustomerRepository.java
 ICustomerRepository class

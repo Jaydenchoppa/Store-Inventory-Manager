@@ -1,4 +1,4 @@
-package repository;
+package Repository;
 
 /* InventoryRepository.java
 InventoryRepository class

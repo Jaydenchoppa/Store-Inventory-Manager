@@ -1,4 +1,4 @@
-package repository;
+package Repository;
 
 /* CategoryRepositoryTest.java
 CategoryRepositoryTest class

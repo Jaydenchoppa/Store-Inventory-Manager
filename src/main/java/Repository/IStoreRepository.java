@@ -1,7 +1,7 @@
 /*Author : Zacharia dipidi
 Date: 24 march 2026
  */
-package repository;
+package Repository;
 
 
 import Domain.Store;

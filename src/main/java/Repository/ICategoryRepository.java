@@ -1,4 +1,4 @@
-package repository;
+package Repository;
 
 /* ICategoryRepository.java
 ICategoryRepository class

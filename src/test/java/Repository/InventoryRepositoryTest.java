@@ -1,4 +1,4 @@
-package repository;
+package Repository;
 
 /* InventoryRepositoryTest.java
 InventoryRepositoryTest class
@@ -21,9 +21,6 @@ class InventoryRepositoryTest {
     @BeforeEach
     void setUp() {
         repository = InventoryRepository.getRepository();
-
-        // Dummy product (must exist in your domain)
-        product = new Product.Builder("P01", "Laptop").build();
 
         inventory = InventoryFactory.createInventory(
                 "I01",

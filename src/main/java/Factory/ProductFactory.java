@@ -6,7 +6,7 @@ package Factory;
 import Domain.Product;
 import Util.Helper;
 
-public class productFactory {
+public class ProductFactory {
     public static Product createProduct(String productId, String productName, String productDescription, String productPrice){
 
 
